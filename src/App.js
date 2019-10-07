@@ -2,6 +2,7 @@
 import React, {useState} from "react";
 import "./App.css";
 import BottomRow from "./BottomRow";
+import Buttons from "./Buttons";
 
 function App() {
   //TODO: STEP 2 - Establish your application's state with some useState hooks.  You'll need one for the home score and another for the away score.
