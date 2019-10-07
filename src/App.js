@@ -23,7 +23,7 @@ function App() {
           <div className="timer">00:03</div>
           <div className="away">
             <h2 className="away__name">Tigers</h2>
-            <div className="away__score">32</div>
+            <div className="away__score" onClick = {() => awayScore(awayPoints + 1)}>{awayPoints}</div>
           </div>
         </div>
         <BottomRow />
